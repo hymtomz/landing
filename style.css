@@ -1,50 +1,62 @@
 /* style.css */
 body{
-  background: rgb(245,245,245);
+  background: rgb(255,255,254);
     text-align: center;
   }
+
+   element.style {
+    padding-right: 0px;
+    padding-left: 0px;
+} 
 #banner{
   text-align: center;
   background-image: url("https://static.pexels.com/photos/185764/pexels-photo-185764.jpeg");
   background-size: cover;
-  padding: 150px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
+  padding: 100px;
+  color: #FABC3C;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
+
 }
 #banner h1 {
-  color: white;
+  color: #FABC3C;
   font-family: 'Sanchez', serif;
-  font-size: 50px;
+  font-size: 40px;
 }
 #banner p {
-  color: white;
+  color: rgb(255,255,254);
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
   font-family: 'Sanchez', serif;
 }
+
+
+
 #footer{
   padding: 30px;
   background: rgb(30, 30, 30);
-  color: lightgrey;
+  color: #FABC3C;
   font-family: 'Sanchez', serif;
-}
-  #footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-#footer a:hover {
-  color: white;
-}
+  
 }
 .card{
   padding: 50px;
   font-weight: lighter;
 }
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
+
+  #footer a {
+  color: white;
+  font-size: 50px;
 }
 #footer a:hover {
+  color: #FABC3C;
+}
+
+#footer a {
   color: white;
+  font-size: 50px;
+}
+#footer a:hover {
+  color: #FABC3C;
 }
