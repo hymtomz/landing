@@ -1,7 +1,7 @@
 /* style.css */
 body{
   background: rgb(255,255,254);
-    text-align: center;
+    /*text-align: center;*/
   }
 
 
@@ -22,7 +22,7 @@ body{
 }
 #banner p {
   color: rgb(255,255,254);
-  opacity: 0.8;
+  opacity: 1.0;
   font-size: 30px;
   font-weight: lighter;
   font-family: 'Sanchez', serif;
@@ -39,12 +39,33 @@ body{
 }
 .card{
   padding: 50px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
-  #footer a {
+.card{
+  text-align: center;
+}
+
+#attrape_coeur{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+#martin_eden{
+font-family: 'Vidaloka', serif;
+}
+
+#bonjour_tristesse{
+font-family: 'Copse', serif;
+}
+
+#footer{
+  text-align: center;
+}
+
+#footer a {
   color: white;
   font-size: 50px;
+
 }
 #footer a:hover {
   color: #FABC3C;
@@ -57,3 +78,13 @@ body{
 #footer a:hover {
   color: #FABC3C;
 }
+
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Copse', serif;
+*/
+
+
