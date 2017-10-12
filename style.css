@@ -1,6 +1,6 @@
 /* style.css */
 body{
-  background: rgb(255,255,254);
+  background: rgb(240,240,230);
     /*text-align: center;*/
   }
 
@@ -9,7 +9,10 @@ body{
   text-align: center;
   background-image: url("https://static.pexels.com/photos/185764/pexels-photo-185764.jpeg");
   background-size: cover;
-  padding: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   color: #FABC3C;
   text-shadow: 2px 2px 5px black;
   margin-bottom: 50px;
@@ -56,6 +59,10 @@ font-family: 'Vidaloka', serif;
 
 #bonjour_tristesse{
 font-family: 'Copse', serif;
+}
+
+#down{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #footer{
